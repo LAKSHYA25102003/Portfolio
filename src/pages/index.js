@@ -6,6 +6,7 @@ import WhatIDo from '../../components/WhatIDo'
 import Skills from '../../components/Skills'
 import Education from '../../components/Education'
 import Footer from '../../components/Footer'
+import Work from '../../components/Work'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Education />
         <Skills />
         <WhatIDo />
+        <Work/>
       </main>
       <footer>
         <Footer />
