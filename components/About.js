@@ -1,7 +1,7 @@
 
 import React from 'react'
-import colored from "../images/colored.jpg"
-import Image from 'next/image'
+// import colored from "../images/colored.jpg"
+// import Image from 'next/image'
 import { AiOutlineGift } from "react-icons/ai"
 import { HiOutlineBookOpen } from "react-icons/hi"
 import { BsGlobe } from "react-icons/bs"

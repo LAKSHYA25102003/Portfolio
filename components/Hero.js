@@ -1,6 +1,6 @@
 import React from 'react'
 // import mine from "../images/mine.jpg"
-import Image from 'next/image'
+// import Image from 'next/image'
 import Typewriter from 'typewriter-effect'
 import Button from './Button'
 
