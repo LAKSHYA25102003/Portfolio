@@ -1,10 +1,13 @@
 import React from 'react'
 // import mine from "../images/mine.jpg"
-// import Image from 'next/image'
+import Image from 'next/image'
 import Typewriter from 'typewriter-effect'
 import Button from './Button'
 
 const Hero = () => {
+    const loadImage=()=>{
+        return `https://s3.ap-southeast-2.amazonaws.com/portfolio.lakshya/images/mine.jpg`
+    }
     return (
         <div className='flex bg-[url("https://s3.ap-southeast-2.amazonaws.com/portfolio.lakshya/images/bg.jpg")] bg-cover bg-fixed h-screen opacity-[20]'>
             <div className='w-[100%] md:w-[50%] flex flex-col justify-center max-[768px]:items-center  md:pl-[80px]  text-white font-bold '>
@@ -27,7 +30,7 @@ const Hero = () => {
                 <Button href = "#about" text="Know More"/>
             </div>
             <div className='hidden md:w-[50%] md:flex justify-end pr-[60px] items-center '>
-                <img className='w-[300px] h-[300px] rounded-[50%]' src={"https://s3.ap-southeast-2.amazonaws.com/portfolio.lakshya/images/mine.jpg"} alt="My Image" />
+                <Image loader={loadImage} src="https://s3.ap-southeast-2.amazonaws.com/portfolio.lakshya/images/mine.jpg" className='z-100 rounded-[50%]' width={300} height={300}   alt="My Image" />
             </div>
         </div>
     )

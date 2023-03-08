@@ -17,7 +17,7 @@ const Navbar = () => {
                     <Link className='hover:text-[#ff4D41]' href={"/about"}>About</Link>
                     <Link className='hover:text-[#ff4D41]' href={"/contact"}>Contact</Link>
                 </div> */}
-                <div className='w-[30%] flex justify-center item-center'>
+                <div className='min-w-[40%] flex justify-center item-center'>
                     <Link href="https://s3.ap-southeast-2.amazonaws.com/portfolio.lakshya/pdf/latest_resume_most.pdf" target={'_blank'} download="Resume_Lakshya"  className='bg-white  hover:bg-[#ff4D41] hover:text-white  px-[4px] border-[2px] border-solid border-[#ff4D41] rounded-[5px] text-[#ff4D41] flex justify-center items-center gap-2'>
                         Download CV <HiDownload />
                     </Link>
