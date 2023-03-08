@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <div className='flex bg-[url("https://s3.ap-southeast-2.amazonaws.com/portfolio.lakshya/images/bg.jpg")] bg-cover bg-fixed h-screen opacity-[20]'>
             <div className='w-[100%] md:w-[50%] flex flex-col justify-center max-[768px]:items-center  md:pl-[80px]  text-white font-bold '>
-                <h className=' text-[40px] md:text-[50px]'>I'm Lakshya</h>
+                <h className=' text-[40px] md:text-[50px]'>I&apos;m Lakshya</h>
                 <div className='text-[24px]'>
                     <Typewriter options={
                         {
