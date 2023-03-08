@@ -20,7 +20,7 @@ const About = () => {
             <h1 className='w-[100%] text-center py-[40px] text-[30px] font-medium'>About Me</h1>
             <div className=' flex flex-col md:flex-row justify-center items-center'>
                 <div className='w-[100%] md:w-[50%] py-[30px]'>
-                    <Image className='md:w-[70%] md:h-[90%] opacity-.01 px-[30px] ' src={colored} alt="My Image" />
+                    <img className='md:w-[70%] md:h-[90%] opacity-.01 px-[30px] ' src={"https://s3.ap-southeast-2.amazonaws.com/portfolio.lakshya/images/colored.jpg"} alt="My Image" />
                 </div>
                 <div className='w-[100%] md:w-[50%] py-[30px] '>
                     <div className=''>
