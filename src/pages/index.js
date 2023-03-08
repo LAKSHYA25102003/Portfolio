@@ -4,8 +4,8 @@ import Hero from '../../components/Hero'
 import About from '../../components/About'
 import WhatIDo from '../../components/WhatIDo'
 import Skills from '../../components/Skills'
-
-
+import Education from '../../components/Education'
+import Footer from '../../components/Footer'
 
 export default function Home() {
   return (
@@ -22,9 +22,13 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <WhatIDo/>
-        <Skills/>
+        <Education />
+        <Skills />
+        <WhatIDo />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }

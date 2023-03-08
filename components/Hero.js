@@ -24,7 +24,7 @@ const Hero = () => {
                 <div className='bg-[#ff4D41] w-[45px] h-[3px] mt-[20px]'></div>
                 <div className='mt-[20px] max-[768px]:text-center w-[80%] md:w-[400px]'>I learn to know, to understand, and to engage with the world around me.
                 </div>
-                <Button link = "#" text="Know More"/>
+                <Button href = "#about" text="Know More"/>
             </div>
             <div className='hidden md:w-[50%] md:flex justify-end pr-[60px] items-center '>
                 <Image className='w-[300px] h-[300px] rounded-[50%]' src={mine} alt="My Image" />
