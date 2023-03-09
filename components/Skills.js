@@ -18,6 +18,12 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className='font-medium w-[90%]'>
+                    <div className='text-[17px]' >Tailwind CSS</div>
+                    <div className='bg-gray-500   h-[4px] my-[10px] relative'>
+                        <div className='bg-[#ff4D41] h-[4px] absolute w-[90%] left-0'></div>
+                    </div>
+                </div>
+                <div className='font-medium w-[90%]'>
                     <div className='text-[17px]'>Javascript</div>
                     <div className='bg-gray-500   h-[4px] my-[10px] relative'>
                         <div className='bg-[#ff4D41] h-[4px] absolute w-[90%] left-0'></div>
