@@ -5,7 +5,7 @@ import { HiDownload } from "react-icons/hi"
 
 const Navbar = () => {
     return (
-        <div className='bg-white w-[100%] fixed top-0 z-10'>
+        <div className='bg-white w-[100%] fixed top-0 z-10 shadow-md'>
             <div className='container py-4 mx-auto flex justify-between items-center'>
                 <div className='text-[24px]  font-bold w-[30%] flex justify-center item-center'>
                     Lakshya
