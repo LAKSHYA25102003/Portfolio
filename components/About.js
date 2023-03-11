@@ -47,7 +47,7 @@ const About = () => {
                                 <BsGlobe className="text-[#ff4D41]  text-[24px]" /> <h3 className='font-medium'>Website</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
-                        <div className='font-medium text-[#ff4D41] hover:font-bold'><Link className='w-[100%]' target={"_blank"} href={"https://portfolio-lakshya-git-main-lakshya25102003.vercel.app/"}>Go to Website</Link></div>
+                        <div className='font-medium text-[#ff4D41] hover:font-bold'><Link className='w-[100%]' target={"_blank"} href={"https://portfolio-lakshya.vercel.app/"}>Go to Website</Link></div>
 
 
                             <div className='flex gap-3'>
