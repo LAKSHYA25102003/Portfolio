@@ -7,6 +7,7 @@ import Skills from '../../components/Skills'
 import Education from '../../components/Education'
 import Footer from '../../components/Footer'
 import Work from '../../components/Work'
+import ProjectsLink from '../../components/ProjectsLink'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <Skills />
         <WhatIDo />
         <Work/>
+        <ProjectsLink/>
       </main>
       <footer>
         <Footer />

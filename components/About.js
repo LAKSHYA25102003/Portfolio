@@ -44,31 +44,31 @@ const About = () => {
 
 
                             <div className='flex gap-3'>
-                                <BsGlobe className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Website</h3>
+                                <BsGlobe className="text-[#ff4D41]  text-[24px]" /> <h3 className='font-medium'>Website</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
-                            <div className='font-medium text-gray-600'><Link className='w-[100%]' href={"https://portfolio-lakshya-git-main-lakshya25102003.vercel.app/"}>Go to Website</Link></div>
+                        <div className='font-medium text-[#ff4D41] hover:font-bold'><Link className='w-[100%]' target={"_blank"} href={"https://portfolio-lakshya-git-main-lakshya25102003.vercel.app/"}>Go to Website</Link></div>
 
 
                             <div className='flex gap-3'>
                                 <RiLinkedinBoxLine className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>LinkedIn</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
-                            <div className='font-medium text-gray-600'><Link  href={"https://www.linkedin.com/in/lakshya-254659204/"}>Go to LinkedIn</Link></div>
+                            <div className='font-medium text-[#ff4D41] hover:font-bold'><Link target={"_blank"}  href={"https://www.linkedin.com/in/lakshya-254659204/"}>Go to LinkedIn</Link></div>
 
 
                             <div className='flex gap-3'>
                                 <TbBrandGithub className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Github</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
-                            <div className='font-medium text-gray-600'><Link className='w-[100%]' href={"https://github.com/LAKSHYA25102003"}>Go to Github</Link></div>
+                            <div className='font-medium text-[#ff4D41] hover:font-bold'><Link target={"_blank"} className='w-[100%]' href={"https://github.com/LAKSHYA25102003"}>Go to Github</Link></div>
 
 
                             <div className='flex gap-3'>
                                 <CgMail className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Email</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
-                            <div className='font-medium text-gray-600'><Link href={"mailto:llakshya63@gmail.com"}>llakshya63<wbr></wbr>@gmail.com</Link></div>
+                            <div className='font-medium text-[#ff4D41] hover:font-bold'><Link target={"_blank"} href={"mailto:llakshya63@gmail.com"}>llakshya63<wbr></wbr>@gmail.com</Link></div>
 
 
 
