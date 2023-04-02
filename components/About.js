@@ -10,12 +10,14 @@ import { IoLocationOutline } from "react-icons/io5"
 import { RiLinkedinBoxLine } from "react-icons/ri"
 import { TbBrandGithub } from "react-icons/tb"
 import { CgMail } from "react-icons/cg"
+import { SiLeetcode } from "react-icons/si"
+
 
 import Link from 'next/link'
 
 
 const About = () => {
-    const loadImage=()=>{
+    const loadImage = () => {
         return "https://s3.ap-southeast-2.amazonaws.com/portfolio.lakshya/images/colored.jpg";
     }
     return (
@@ -47,14 +49,14 @@ const About = () => {
                                 <BsGlobe className="text-[#ff4D41]  text-[24px]" /> <h3 className='font-medium'>Website</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
-                        <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link className='w-[100%]' target={"_blank"} href={"https://portfolio-lakshya.vercel.app/"}>Go to Website</Link></div>
+                            <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link className='w-[100%]' target={"_blank"} href={"https://portfolio-lakshya.vercel.app/"}>Go to Website</Link></div>
 
 
                             <div className='flex gap-3'>
                                 <RiLinkedinBoxLine className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>LinkedIn</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
-                            <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link target={"_blank"}  href={"https://www.linkedin.com/in/lakshya-254659204/"}>Go to LinkedIn</Link></div>
+                            <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link target={"_blank"} href={"https://www.linkedin.com/in/lakshya-254659204/"}>Go to LinkedIn</Link></div>
 
 
                             <div className='flex gap-3'>
@@ -64,7 +66,7 @@ const About = () => {
                             <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link target={"_blank"} className='w-[100%]' href={"https://github.com/LAKSHYA25102003"}>Go to Github</Link></div>
 
                             <div className='flex gap-3'>
-                                <TbBrandGithub className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Leetcode Profile</h3>
+                                <SiLeetcode className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Leetcode Profile</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link target={"_blank"} className='w-[100%]' href={"https://leetcode.com/LAKSHYA25102003/"}>Go to Leetcode</Link></div>
