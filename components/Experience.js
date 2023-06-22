@@ -7,7 +7,7 @@ const Experience = () => {
             <div className='flex flex-col gap-8 w-[100%]'>
                 <div >
                     <div className='text-[23px] font-bold text-center md:text-start'>
-                        Shakespeare
+                        Shakespeare AE
                     </div>
                     <div className=' grid grid-cols-3 mt-[10px]'>
                         <div>About Company</div>
