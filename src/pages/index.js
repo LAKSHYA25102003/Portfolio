@@ -8,6 +8,7 @@ import Education from '../../components/Education'
 import Footer from '../../components/Footer'
 import Work from '../../components/Work'
 import ProjectsLink from '../../components/ProjectsLink'
+import Experience from '../../components/Experience'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <Education />
         <Skills />
         <WhatIDo />
+        <Experience/>
         <Work/>
         <ProjectsLink/>
       </main>

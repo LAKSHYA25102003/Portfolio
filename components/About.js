@@ -32,7 +32,7 @@ const About = () => {
                         <div className='grid grid-cols-3 gap-3'>
 
                             <div className='flex gap-3'>
-                                <AiOutlineGift className="text-[rgb(255,77,65)] text-[24px] font-medium" /> <h3 className='font-medium'>Birthday</h3>
+                                <AiOutlineGift  className="text-[rgb(255,77,65)] text-[24px] font-medium" /> <h3 className='font-medium'>Birthday</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-gray-600'>25.10.2003</div>
