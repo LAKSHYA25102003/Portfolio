@@ -32,46 +32,46 @@ const About = () => {
                         <div className='grid grid-cols-3 gap-3'>
 
                             <div className='flex gap-3'>
-                                <AiOutlineGift  className="text-[rgb(255,77,65)] text-[24px] font-medium" /> <h3 className='font-medium'>Birthday</h3>
+                                <AiOutlineGift  className="text-[rgb(255,77,65)] hidden md:block text-[24px] font-medium" /> <h3 className='font-medium'>Birthday</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-gray-600'>25.10.2003</div>
 
 
                             <div className='flex gap-3'>
-                                <HiOutlineBookOpen className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Current Study</h3>
+                                <HiOutlineBookOpen className="text-[#ff4D41] hidden md:block text-[24px]" /> <h3 className='font-medium'>Current Study</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-gray-600'>IIT Guwahati (B.Tech.) </div>
 
 
                             <div className='flex gap-3'>
-                                <BsGlobe className="text-[#ff4D41]  text-[24px]" /> <h3 className='font-medium'>Website</h3>
+                                <BsGlobe className="text-[#ff4D41] hidden md:block text-[24px]" /> <h3 className='font-medium'>Website</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
-                            <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link className='w-[100%]' target={"_blank"} href={"https://portfolio-lakshya.vercel.app/"}>Go to Website</Link></div>
+                            <div className='font-medium text-[#ff4D41]  hover:font-bold underline'><Link className='w-[100%]' target={"_blank"} href={"https://portfolio-lakshya.vercel.app/"}>Go to Website</Link></div>
 
 
                             <div className='flex gap-3'>
-                                <RiLinkedinBoxLine className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>LinkedIn</h3>
+                                <RiLinkedinBoxLine className="text-[#ff4D41] hidden md:block text-[24px]" /> <h3 className='font-medium'>LinkedIn</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link target={"_blank"} href={"https://www.linkedin.com/in/lakshya-254659204/"}>Go to LinkedIn</Link></div>
 
 
                             <div className='flex gap-3'>
-                                <TbBrandGithub className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Github</h3>
+                                <TbBrandGithub className="text-[#ff4D41] hidden md:block text-[24px]" /> <h3 className='font-medium'>Github</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link target={"_blank"} className='w-[100%]' href={"https://github.com/LAKSHYA25102003"}>Go to Github</Link></div>
 
                             <div className='flex gap-3'>
-                                <SiLeetcode className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Leetcode Profile</h3>
+                                <SiLeetcode className="text-[#ff4D41] hidden md:block text-[24px]" /> <h3 className='font-medium'>Leetcode Profile</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link target={"_blank"} className='w-[100%]' href={"https://leetcode.com/LAKSHYA25102003/"}>Go to Leetcode</Link></div>
                             <div className='flex gap-3'>
-                                <CgMail className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Email</h3>
+                                <CgMail className="text-[#ff4D41] hidden md:block text-[24px]" /> <h3 className='font-medium'>Email</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-[#ff4D41] hover:font-bold underline'><Link target={"_blank"} href={"mailto:llakshya63@gmail.com"}>llakshya63<wbr></wbr>@gmail.com</Link></div>
@@ -79,14 +79,14 @@ const About = () => {
 
 
                             <div className='flex gap-3'>
-                                <TiPointOfInterestOutline className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Interest</h3>
+                                <TiPointOfInterestOutline className="text-[#ff4D41] hidden md:block text-[24px]" /> <h3 className='font-medium'>Interest</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-gray-600'>Playing, Reading</div>
 
 
                             <div className='flex gap-3'>
-                                <IoLocationOutline className="text-[#ff4D41] text-[24px]" /> <h3 className='font-medium'>Location</h3>
+                                <IoLocationOutline className="text-[#ff4D41] hidden md:block text-[24px]" /> <h3 className='font-medium'>Location</h3>
                             </div>
                             <div className='font-medium ml-[10px]'>:</div>
                             <div className='font-medium text-gray-600'>Ghaziabad, Noida</div>
