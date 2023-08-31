@@ -74,6 +74,9 @@ const Experience = () => {
         </div>
       </div>
       <div className="bg-gray-300 w-full h-[1px]"></div>
+      <h1 className="w-[100%]  text-center py-[40px] text-[30px] font-medium">
+        Internship Experience
+      </h1>
       <div className="flex flex-col gap-8 w-[100%]">
         <div>
           <div className="text-[23px] font-bold text-center md:text-start">
